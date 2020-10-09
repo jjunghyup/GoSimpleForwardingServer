@@ -1,1 +1,92 @@
 2020/04/12 21:27:59 Listening for connection
+2020/10/09 19:28:40 Listening for connection
+2020/10/09 19:29:35 Listening for connection
+2020/10/09 20:16:09 Listening for connection
+2020/10/09 20:16:17 Got connection 192.168.219.108:59756 -> 192.168.219.108:6000
+2020/10/09 20:16:17 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:17 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:17 Invaild ip:port 
+2020/10/09 20:16:17 Got connection 192.168.219.108:59757 -> 192.168.219.108:6000
+2020/10/09 20:16:17 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:17 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:17 Invaild ip:port 
+2020/10/09 20:16:17 Got connection 192.168.219.108:59758 -> 192.168.219.108:6000
+2020/10/09 20:16:17 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:17 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:17 Invaild ip:port 
+2020/10/09 20:16:18 Got connection 192.168.219.108:59759 -> 192.168.219.108:6000
+2020/10/09 20:16:18 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:18 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:18 Invaild ip:port 
+2020/10/09 20:16:18 Got connection 192.168.219.108:59760 -> 192.168.219.108:6000
+2020/10/09 20:16:18 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:18 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:18 Invaild ip:port 
+2020/10/09 20:16:18 Got connection 192.168.219.108:59761 -> 192.168.219.108:6000
+2020/10/09 20:16:18 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:18 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:18 Invaild ip:port 
+2020/10/09 20:16:18 Got connection 192.168.219.108:59762 -> 192.168.219.108:6000
+2020/10/09 20:16:18 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:18 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:18 Invaild ip:port 
+2020/10/09 20:16:19 Got connection 192.168.219.108:59764 -> 192.168.219.108:6000
+2020/10/09 20:16:19 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:19 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:19 Invaild ip:port 
+2020/10/09 20:16:19 Got connection 192.168.219.108:59765 -> 192.168.219.108:6000
+2020/10/09 20:16:19 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:19 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:19 Invaild ip:port 
+2020/10/09 20:16:19 Got connection 192.168.219.108:59766 -> 192.168.219.108:6000
+2020/10/09 20:16:19 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:19 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:19 Invaild ip:port 
+2020/10/09 20:16:19 Got connection 192.168.219.108:59767 -> 192.168.219.108:6000
+2020/10/09 20:16:19 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:19 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:19 Invaild ip:port 
+2020/10/09 20:16:20 Got connection 192.168.219.108:59768 -> 192.168.219.108:6000
+2020/10/09 20:16:20 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:20 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:20 Invaild ip:port 
+2020/10/09 20:16:20 Got connection 192.168.219.108:59769 -> 192.168.219.108:6000
+2020/10/09 20:16:20 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:20 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:20 Invaild ip:port 
+2020/10/09 20:16:20 Got connection 192.168.219.108:59770 -> 192.168.219.108:6000
+2020/10/09 20:16:20 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:20 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:20 Invaild ip:port 
+2020/10/09 20:16:20 Got connection 192.168.219.108:59771 -> 192.168.219.108:6000
+2020/10/09 20:16:20 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:20 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:20 Invaild ip:port 
+2020/10/09 20:16:21 Got connection 192.168.219.108:59772 -> 192.168.219.108:6000
+2020/10/09 20:16:21 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:21 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:21 Invaild ip:port 
+2020/10/09 20:16:21 Got connection 192.168.219.108:59773 -> 192.168.219.108:6000
+2020/10/09 20:16:21 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:21 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:21 Invaild ip:port 
+2020/10/09 20:16:21 Got connection 192.168.219.108:59774 -> 192.168.219.108:6000
+2020/10/09 20:16:21 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:21 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:21 Invaild ip:port 
+2020/10/09 20:16:21 Got connection 192.168.219.108:59775 -> 192.168.219.108:6000
+2020/10/09 20:16:21 Target :%!(EXTRA string=5555)
+2020/10/09 20:16:21 deviceIp(5555) is not a valid IPv4 address
+2020/10/09 20:16:21 Invaild ip:port 
+2020/10/09 20:17:46 Listening for connection
+2020/10/09 20:18:03 Listening for connection
+2020/10/09 20:18:07 Got connection 192.168.219.108:59834 -> 192.168.219.108:6000
+2020/10/09 20:18:07 Target :%!(EXTRA string=127.0.0.1:5555)
+2020/10/09 20:18:07 Dialed 127.0.0.1:59835 -> 127.0.0.1:5555
+2020/10/09 20:19:06 Got connection 192.168.219.108:59881 -> 192.168.219.108:6000
+2020/10/09 20:19:06 Target :%!(EXTRA string=127.0.0.1:5555)
+2020/10/09 20:19:06 Dialed 127.0.0.1:59882 -> 127.0.0.1:5555
+2020/10/09 20:25:33 Listening for connection
+2020/10/09 20:25:37 Got connection 192.168.219.108:60249 -> 192.168.219.108:6000
+2020/10/09 20:25:37 Target :%!(EXTRA string=127.0.0.1:5555)
+2020/10/09 20:25:37 Dialed 127.0.0.1:60250 -> 127.0.0.1:5555

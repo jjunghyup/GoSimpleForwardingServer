@@ -68,7 +68,7 @@ func StartServer() {
 			log.Fatalln(err)
 		}
 		//start a new thread for this connection and wait for the next one
-		go forward(mainConn)
+		go forward(mainConn, Config.target)
 	}
 }
 
@@ -81,30 +81,13 @@ func debuglog(msg string, v ...interface{}) {
 }
 
 //forward() handles forwarding of a given source connection to configured destion/mirror
-func forward(srcConn net.Conn) {
+func forward(srcConn net.Conn, target string) {
 	//have to defer here as defer waits for surrounding function to return.
 	//deferring in main() for loop would only execute when main() exits (?)
 	defer srcConn.Close()
 
-	//receive ip address data from client
-	data := make([]byte, 4096)
-	n, err := srcConn.Read(data)
-	if err != nil {
-		debuglog("No data received! Close connection!")
-		srcConn.Close()
-		return
-	}
-
-	target := string(data[:n])
-
 	//set up main destination, the one whose returned data is also written back to source connection
 	debuglog("Target :", target)
-	if !checkDeviceIp(target) {
-		debuglog("Invaild ip:port ")
-		srcConn.Close()
-		return
-	}
-
 	dstConn, err := net.Dial("tcp", target)
 
 	if err != nil {
@@ -206,6 +189,7 @@ type Configuration struct {
 	logFile      string //if defined, write log to this file
 	logToConsole bool   //if we should log to console
 	bufferSize   int    //size to use for buffering read/write data
+	target       string //target ip:port
 }
 
 //this is how go defines variables, so the actual configurations are stored here
@@ -217,6 +201,7 @@ func ParseConfig() {
 	flagSet.SetOutput(os.Stdout)
 
 	srcPortPtr := flagSet.Int("sp", 8080, "Source port for incoming connections. Required.")
+	target := flagSet.String("target", "", "target <ip:port> for incoming connections. Required.")
 
 	logFilePtr := flagSet.String("logf", "proxy.log", "If defined, will write debug log info to this file.")
 	logToConsolePtr := flagSet.Bool("logc", false, "If defined, write debug log info to console.")
@@ -228,6 +213,7 @@ func ParseConfig() {
 	Config.logFile = *logFilePtr
 	Config.logToConsole = *logToConsolePtr
 	Config.bufferSize = *bufferSizePtr
+	Config.target = *target
 
 	var errors = ""
 	if Config.srcPort < 1 || Config.srcPort > 65535 {

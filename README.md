@@ -11,13 +11,15 @@
 ```
 > set GOOS=Windows
 > go Build
-> GoSimpleForwardingServer.exe
+> GoSimpleForwardingServer.exe -sp <recive port> -target <ip:port>
+ex) GoSimpleForwardingServer.exe -sp 8080 -target 127.0.0.1:5555
 ```
 
 # Usage(Linux)
 ```
-> set GOOS=linux
+> GOOS=linux
 > go Build
 > chmod 755 GoSimpleForwardingServer
-> ./GoSimpleForwardingServer
+> ./GoSimpleForwardingServer -sp <recive port> -target <ip:port>
+ex) ./GoSimpleForwardingServer -sp 8080 -target 127.0.0.1:5555
 ```
