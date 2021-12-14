@@ -3,7 +3,6 @@ package main
 import (
 	"bufio"
 	"flag"
-	"fmt"
 	"io"
 	"log"
 	"net"
@@ -87,7 +86,7 @@ func forward(srcConn net.Conn, target string) {
 	defer srcConn.Close()
 
 	//set up main destination, the one whose returned data is also written back to source connection
-	debuglog("Target :", target)
+	debuglog("Target : %s", target)
 	dstConn, err := net.Dial("tcp", target)
 
 	if err != nil {
@@ -224,9 +223,8 @@ func ParseConfig() {
 	}
 
 	if len(errors) > 0 {
-		fmt.Print(errors)
-		fmt.Println()
-		fmt.Print("Usage: " + os.Args[0] + " [options]")
+		println(errors)
+		println("Usage: " + os.Args[0] + " [options]")
 		flagSet.PrintDefaults()
 		os.Exit(1)
 	}
